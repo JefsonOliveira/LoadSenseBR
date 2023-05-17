@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    justify-content: center;
+  }
+  
+  .template {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 3px solid #bdc6c9f6;
+    border-radius: 5px;
+    width: 550px;
+    height: 440px;
+  }
+  
+  .containerInput {
+    color: rgb(96, 101, 105);
+  }
+  
+  .containerInput::placeholder {
+    color: red;
+  }
+  
+  .title {
+    font-size: 50px;
+    display: flex;
+    color: #0b97c2f8;
+    margin-top: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    height: 1px;
+    width: 500px;
+    background-color: #0eafe0;
+    margin-bottom: 30px;
+  
+    background: linear-gradient(
+      to right,
+      rgb(241, 241, 241) 0%,
+      rgb(23, 155, 207) 33%,
+      rgb(23, 155, 207) 33%,
+      rgb(23, 155, 207) 66%,
+      rgb(23, 155, 207) 66%,
+      rgb(255, 255, 255) 100%
+    );
+    height: 2px;
+  }
+  
+  .checkLogado {
+    color: rgb(96, 101, 105);
+    padding: 12px;
+    width: 500px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 321px;
+  }
+  
+  .inCheckLogado {
+    margin-right: 5px;
+  }
+  
+  .containerCadastre {
+    font-size: 17px;
+    color: rgba(113, 118, 122, 0.767);
+    justify-content: flex-end;
+    background-color: #d5edf5;
+    padding: 15px;
+    width: 544px;
+    height: 58px;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .cadastre {
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #939a9cf6;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .cadastre:hover {
+    border: 2px solid #e6ff02;
+    color: #17a5dee5;
+  }
+  
+  .email {
+    
+    border: 3px solid #bdc6c9f6;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 18px;
+    width: 470px;
+    height: 10px;
+  }
+  
+  .email::placeholder {
+    font-size: 15px;
+  }
+  
+  .email:hover {
+    border: 3px solid #a9b1b4f6;
+  }
+  
+  .passWord {
+    border: 3px solid #bdc6c9f6;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 18px;
+    width: 470px;
+    height: 10px;
+  }
+  
+  .passWord:hover {
+    border: 3px solid #a9b1b4f6;
+  }
+  
+  .passWord::placeholder {
+    font-size: 15px;
+  }
+  
+  .logar {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    background-color: #17a5dee5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    width: 470px;
+    height: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  
+  .logar:hover {
+    background-color: #28ade2e5;
+  }
+  

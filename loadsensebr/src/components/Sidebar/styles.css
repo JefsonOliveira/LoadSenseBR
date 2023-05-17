@@ -1,0 +1,15 @@
+
+
+li:hover svg{
+    color: #3062c0;
+}
+
+li:hover span{
+    color: #3062c0;
+}
+
+/* li:hover h1{
+    color:#ffff;
+    background-color: #3062c0;
+    font-weight: bold;
+} */
